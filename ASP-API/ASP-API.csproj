@@ -68,7 +68,6 @@
     <Compile Include="Services\PersonService.cs" />
     <Compile Include="DataAccess\IPersonDataAccess.cs" />
     <Compile Include="DataAccess\FakePersonDataAccess.cs" />
-    <Compile Include="DataAccess\MySQLPersonDataAccess.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
