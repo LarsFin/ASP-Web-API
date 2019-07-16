@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP-API", "ASP-API\ASP-API.csproj", "{70320438-B4F9-49E0-B8C2-5265ADCD0231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP-API.Tests", "ASP-API.Tests\ASP-API.Tests.csproj", "{D278BC31-DDE0-4849-BFF1-6BDB4918A91B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70320438-B4F9-49E0-B8C2-5265ADCD0231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70320438-B4F9-49E0-B8C2-5265ADCD0231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70320438-B4F9-49E0-B8C2-5265ADCD0231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70320438-B4F9-49E0-B8C2-5265ADCD0231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D278BC31-DDE0-4849-BFF1-6BDB4918A91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D278BC31-DDE0-4849-BFF1-6BDB4918A91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D278BC31-DDE0-4849-BFF1-6BDB4918A91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D278BC31-DDE0-4849-BFF1-6BDB4918A91B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
