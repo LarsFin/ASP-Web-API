@@ -64,10 +64,17 @@
     </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Controller\PersonController.cs" />
+    <Compile Include="Services\PersonService.cs" />
+    <Compile Include="DataAccess\IPersonDataAccess.cs" />
+    <Compile Include="DataAccess\FakePersonDataAccess.cs" />
+    <Compile Include="DataAccess\MySQLPersonDataAccess.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Controller\" />
+    <Folder Include="Services\" />
+    <Folder Include="DataAccess\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
